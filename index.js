@@ -19,19 +19,21 @@ function destructivelyRemoveFirstKitten() {
 }
 
 function appendKitten(name) {
-  kittenArr = kittens.slice()
+  let kittenArr = kittens.slice()
   kittenArr.push(name)
   return kittenArr
 }
 
 function prependKitten(name) {
-  kittenArr = kittens.slice()
+  let kittenArr = kittens.slice()
   kittenArr.unshift(name)
   return kittenArr
 }
 
 function removeLastKitten(){
-  kittenArr = kittens.slice()
+  let kittenArr = kittens.slice()
   kittenArr.pop()
   return kittenArr
 }
+
+function removeFirstKitten() {}
