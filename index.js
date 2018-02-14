@@ -31,6 +31,6 @@ function prependKitten(name) {
 }
 function removeLastKitten(){
   kittenArr = kittens.slice()
-  kittenArr.unshift(name)
+  kittenArr.pop()
   return kittenArr
 }
