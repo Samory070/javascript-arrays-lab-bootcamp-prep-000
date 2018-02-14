@@ -36,4 +36,8 @@ function removeLastKitten(){
   return kittenArr
 }
 
-function removeFirstKitten() {}
+function removeFirstKitten() {
+  let kittenArr = kittens.slice()
+  kittenArr.unshift()
+  return kittenArr
+}
