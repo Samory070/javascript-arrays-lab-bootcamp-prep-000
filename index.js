@@ -38,6 +38,6 @@ function removeLastKitten(){
 
 function removeFirstKitten() {
   let kittenArr = kittens.slice()
-  kittenArr.unshift()
+  kittenArr.shift()
   return kittenArr
 }
